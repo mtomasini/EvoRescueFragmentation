@@ -1,0 +1,6 @@
+# Evolutionary rescue in multiple demes
+This repository contains the scripts used to create simulations, figures and calculations used in the paper "Fragmentation helps evolutionary rescue in highly connected habitats", written by myself and Stephan Peischl. It contains a simulation (main.py), a file to generate parameters sheets (parameters\_generator.py) and an example of a parameters file (Parameters.txt). Furthermore, it contains the R scripts and the output files of the simulations used for figures 2 and 4 of our paper. Finally, it contains the short Matlab script used to calculate positive and negative demographic effects of gene flow (demographic\_effects\_migration.mlx).
+
+Keep in mind that these simulations where created in a time when my Python skills were those of a fledgling. If a line surprises you as too complicated, it's probably because I came up with a way to do it without ever knowing there was a faster or easier way. 
+
+For quick inquiries and questions about the code, feel free to open an issue here on github or to DM me on Twitter, @mattomasini; for more complicated questions concerning concepts discussed in the paper, please write to Dr. Stephan Peischl (you can find the address in the paper).
