@@ -9,7 +9,7 @@ growth = 1.5
 for (s in s.list){
     for (r in r.list) {
         for (D in D.list){
-            filename <- paste("SS_Island_s", s, "_r", r, "_D", D, "_nodensity.eps", sep="")
+            filename <- paste("SS_Island_s", s, "_r", r, "_D", D, sep="") # remember to change name in case of "no density" sims.
             setEPS()
             postscript(filename, width=7, height=5)
             
@@ -44,7 +44,7 @@ for (s in s.list){
 for (s in s.list){
     for (r in r.list) {
         for (D in D.list){
-            filename <- paste("Comparison_s", s, "_r", r, "_D", D, "_nodensity.eps", sep="")
+            filename <- paste("Comparison_s", s, "_r", r, "_D", D, sep="") # remember to change name in case of "no density" sims.
             setEPS()
             postscript(filename, width=7, height=5)
             
@@ -55,7 +55,7 @@ for (s in s.list){
                      & ER_data$s == s & ER_data$z == 0.02 & ER_data$r == r)
             ER2 <- ER_data[par2,]
             plot(ER1$migration*2/D, ER1$Rescue, pch = 19, col = "gray60", ylim = c(0, 1.0), xlim=c(1e-4, 1),
-                 xlab="Migration rate", ylab="Probability of rescue", log="x", cex.axis = 1.5, cex.lab =1.5)
+                 xlab="Effective migration rate", ylab="Probability of rescue", log="x", cex.axis = 1.5, cex.lab =1.5)
             points(ER2$migration, ER2$Rescue, pch = 19)
             arrows(ER1$migration*2/D, ER1$Rescue - ER1$Error, 
                    ER1$migration*2/D, ER1$Rescue + ER1$Error, 
