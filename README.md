@@ -1,6 +1,6 @@
 # EvoRescueFragmentation
 
-This repository contains the scripts used to create simulations and figures used in the paper "Evolutionary rescue in one dimensional stepping stone models", written by myself and Stephan Peischl. It contains a simulation (main.py), a file to generate parameters sheets (parameters_generator.py) and an example of a parameters file (Parameters.txt). Furthermore, it contains the R scripts and the output files of the simulations used for the figures in the main text. Finally, the document "Tomasini_Peischl_supplemental.pdf" contains the supplemental material of the paper.
+This repository contains the scripts used to create simulations and figures used in the paper "The role of spatial structure in multi-deme models of evolutionary rescue", written by myself and Stephan Peischl. It contains a simulation (main.py), a file to generate parameters sheets (parameters_generator.py) and an example of a parameters file (Parameters.txt). Furthermore, it contains the R scripts and the output files of the simulations used for the figures in the main text. Finally, the document "Tomasini_Peischl_supplemental.pdf" contains the supplemental material of the paper (although this is an old version).
 
 The simulation can be used either on its own (which will take a default input output) or with an input parameters file and output file with custom names: 
 ```
